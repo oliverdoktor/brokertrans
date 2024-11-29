@@ -31,7 +31,7 @@ Current model is multilingual, the input and output language does not effect com
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/oliverdoktor/brokertrans.git
 cd trans
 ```
 
@@ -51,7 +51,7 @@ docker run --gpus all \
 ```
 
 ## Usage
-Most input languages are supported, detection is automatic. 
+Most input languages are supported, source language detection is automatic. 
 Input the desired text and target language than hit "Translate"
 To free up memory from GPU without stopping the service hit the unload button
 
